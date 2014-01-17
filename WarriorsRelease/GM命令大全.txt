@@ -1,0 +1,26 @@
+gm hp a						a-增加的HP数量值		
+gm mp a						a-增加的mP数量值		
+gm exp a					a-增加的经验值
+gm gas a 					a-增加的真气值
+gm clearbag                 清空背包
+gm goto b c 			    a-地图ID,b-X坐标,c-Y坐标
+gm golden a					a-增加的金币数量值
+gm silver a					a-增加的游戏币数量值
+gm equip a b				a-基础装备ID,b-装备数量
+gm item	a b 				a-基础道具ID,b-增加的数量
+gm level a					a-修改后角色的等级
+gm skill a b				a-技能ID, b-增加的技能等级
+gm userTask a				a-基础任务ID(这个客户端处理有一些问题, 修改后需要下线再上线, 有时候也导致任务做不了, 需要排查)
+gm meridian a				a-经脉的类型. (0-阳维脉,1-阴维脉,2-阳跷脉,3-阴跷脉,4-带脉,5-冲脉, 6-任脉,7-督脉,8-精-阳纬脉 ,
+							9- 精-阴维脉 ,10-精-阳跷脉 ,11-精-阴跷脉 ,12-精-带脉 ,13-精-冲脉 ,14-精-任脉 ,15-精-督脉 )
+gm petexp a					a-需要增加的家将历练值
+gm mergedlevel a			a-增加的家将契合度等级(1-10)
+gm allianceSilver a         a-增加帮派的铜币
+gm allianceToken a          a-增加帮派的令牌数量
+gm donate a                 a-增加玩家的贡献值				
+gm guide a                  a-引导的第几步.	
+
+gm loginDays a              a-累计登录天数
+gm continueDays a           a-连续登录天数
+gm onlineTime a             a-在线时长(分钟)	
+gm monsterCount a           a-杀怪数量		

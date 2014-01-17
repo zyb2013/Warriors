@@ -1,0 +1,12 @@
+package com.yayo.warriors.module.rank.type;
+
+public enum RankType{
+	PLAYER_LEVEL,
+	PLAYER_FIGHTING,
+	PLAYER_MERIDIAN,
+	PLAYER_MORTAL,
+	PLAYER_SILVER,
+	PLAYER_SKILL_LEVEL,
+	PET_FIGHTING,
+	HORSE_LEVEL;
+};

@@ -1,0 +1,24 @@
+package com.yayo.warriors.module.rank.rule;
+
+import com.yayo.warriors.module.rank.type.RankType;
+
+public interface RankRule {
+	int RANK_LENGTH = 100;
+	int ALLIANCE_RANK_LENGTH = 30;
+	int JOB_RANK_LENGTH = 30;
+	int RANK_OPEN_PLAYER_LEVEL_LIMIT = 40;
+	int RANK_PLAYER_LEVEL_LIMIT = 30;
+	int RANK_PLAYER_FIGHTING_LIMIT = 30;
+	int RANK_PLAYER_MERIDIAN_LIMIT = 16;
+	int RANK_PLAYER_MORTAL_LIMIT = 0;
+	int RANK_PET_QUALITY_LIMIT = 400;
+	int RANK_PET_GROW_LIMIT = 10;
+	int RANK_PET_MERGED_LIMIT = 3;
+	int RANK_PET_LEVEL_LIMIT = 30;
+	int RANK_PET_FIGHTING_LIMIT = 100;
+	int RANK_HORSE_LEVEL_LIMIT = 10;
+	long RANK_WEALTH_SILVER_LIMIT = 10000L;
+	int RANK_SKILL_LEVEL_LIMIT = 18;
+	public final RankType[] PLAYER_RANK_TYPES = {RankType.PLAYER_LEVEL, RankType.PLAYER_FIGHTING, RankType.PLAYER_MERIDIAN, RankType.PLAYER_MORTAL, RankType.PLAYER_SILVER, RankType.PLAYER_SKILL_LEVEL};
+	public final int RANK_TOP = 10;
+}

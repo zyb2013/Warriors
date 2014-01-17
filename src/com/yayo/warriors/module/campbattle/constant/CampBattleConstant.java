@@ -1,0 +1,27 @@
+package com.yayo.warriors.module.campbattle.constant;
+
+import com.yayo.warriors.constant.CommonConstant;
+
+
+public interface CampBattleConstant extends CommonConstant {
+	int HAVE_NOT_PRIORITY_ENTER = -340001;
+	int JOIN_LEVEL_LIMIT = -340002;
+	int BATTLE_IS_FULL = -340003;
+	int CANNOT_REWARD_SALARY_CAMPTITLE_LIMIT = -340004;
+	int HAD_REWARD = -340005;
+	int MUST_HAD_CAMP = -340006;
+	int BATTLE_NOT_START = -340007;
+	int HAD_APPLY_JOIN_BATTLE = -340008;
+	int NOT_IN_CAMP_BATTLE = -340009;
+	int APPLY_IS_DONE = -340010;
+	int HAD_CAMP_TITLE = -340011;
+	int MUST_APPLY = -340012;
+	int SOME_BODY_ENTER = -340013;
+	int BATTLE_IS_OVER = -340014;
+	int BATTLE_PLAYER_FULLED = -340015;
+	int SALARY_REWARDED = -340016;
+	int CAMP_BATTLE_HISTORY_NOT_FOUND = -340017;
+	int CAMP_BATTLE_NOT_OVER= -340018;
+	int SUIT_REWARDED= -340019;
+	int CAMPTITLE_LIMIT= -340020;
+}

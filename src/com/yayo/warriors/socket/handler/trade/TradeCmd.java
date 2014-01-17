@@ -1,0 +1,24 @@
+package com.yayo.warriors.socket.handler.trade;
+
+
+public interface TradeCmd {
+	int INVITE_TRADE = 1;
+	int PROCESS_TRADE_INVITE = 2;
+	int ADD_TRADE_PROPS = 3;
+	int ADD_TRADE_EQUIP = 4;
+	int LOCK_PROPS = 5;
+	int CLICK_TO_TRADE = 6;
+	int ADD_TRADE_CURRENCY = 7;
+	int CANCLE_TRADE = 8;
+	@Deprecated
+	int CHANGE_TRADE_PROPS = 9;
+	@Deprecated
+	int CHANGE_TRADE_EQUIP = 10;
+	int REMOVE_USER_PROPS = 11;
+	int PUSH_INVITED_MESSAGE = 100;
+	int PUSH_PROCESS_TRADE_MESSAGE = 101;
+	int PUSH_PLAYER_TRADE_PROPS = 102;
+	int PUSH_LOCK_TRADE_MESSAGE = 103;
+	int PUSH_CLICK_TRADE_MESSAGE = 104;
+	int PUSH_CANCLE_TRADE_MESSAGE = 105;
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+	<bean id="event_queue_size" class="java.lang.Integer">
+		<constructor-arg value="50000" />
+	</bean>
+	<bean id="event_pool_size" class="java.lang.Integer">
+		<constructor-arg value="1" />
+	</bean>
+	<bean id="event_pool_max_size" class="java.lang.Integer">
+		<constructor-arg value="10" />
+	</bean>
+	<bean id="event_pool_alive_time" class="java.lang.Integer">
+		<constructor-arg value="60" />
+	</bean>
+	<bean id="firewall.max.packages.second" class="java.lang.Integer" >
+		<constructor-arg value="60" />
+	</bean>
+	<bean id="firewall.max.packages.minute" class="java.lang.Integer" >
+		<constructor-arg value="3500" />
+	</bean>
+	<bean id="firewall.max.bytes.second" class="java.lang.Integer" >
+		<constructor-arg value="10240" />
+	</bean>
+	<bean id="firewall.max.bytes.minute" class="java.lang.Integer" >
+		<constructor-arg value="614400" />
+	</bean>
+	<bean id="firewall.max.authcode.errors.second" class="java.lang.Integer" >
+		<constructor-arg value="2" />
+	</bean>
+	<bean id="firewall.max.authcode.errors.minute" class="java.lang.Integer" >
+		<constructor-arg value="10" />
+	</bean>
+	<bean id="firewall.block.detect.count" class="java.lang.Integer" >
+		<constructor-arg value="5" />
+	</bean>
+	<bean id="firewall.block.ip.minutes" class="java.lang.Integer" >
+		<constructor-arg value="10" />
+	</bean>
+	<bean id="firewall.block.user.minutes" class="java.lang.Integer" >
+		<constructor-arg value="10" />
+	</bean>
+	<bean id="firewall.max.clients.limit" class="java.lang.Integer" >
+		<constructor-arg value="10000" />
+	</bean>
+	<bean id="firewall.max.clients.actives" class="java.lang.Integer" >
+		<constructor-arg value="5000" />
+	</bean>
+	<bean id="dbcache.max_capacity_of_entity_cache" class="java.lang.Integer" >
+		<constructor-arg value="1000000" />
+	</bean>
+	<bean id="dbcache.max_capacity_of_common_cache" class="java.lang.Integer" >
+		<constructor-arg value="500000" />
+	</bean>
+	<bean id="dbcache.db_pool_capacity" class="java.lang.Integer" >
+		<constructor-arg value="1" />
+	</bean>
+	<bean id="dbcache.db_pool_max_capacity" class="java.lang.Integer" >
+		<constructor-arg value="40" />
+	</bean>
+	<bean id="dbcache.db_pool_keep_alive_time" class="java.lang.Integer" >
+		<constructor-arg value="900" />
+	</bean>
+	<bean id="dbcache.max_block_time_of_entity_cache" class="java.lang.Integer" >
+		<constructor-arg value="60000" />
+	</bean>
+	<bean id="server.command.enableGM" class="java.lang.Boolean" >
+		<constructor-arg value="true" />
+	</bean>
+	<bean id="server.command.indulgeEnable" class="java.lang.Boolean" >
+		<constructor-arg value="false" />
+	</bean>
+	<bean id="server.command.createEnable" class="java.lang.String" >
+		<constructor-arg value=""/>
+	</bean>
+	<bean id="scheduling_pool_size" class="java.lang.Integer">
+		<constructor-arg value="2" />
+	</bean>
+	<bean id="MONSTER_RUN_TIME_OUT" class="java.lang.Integer">
+		<constructor-arg value="20" />
+	</bean>
+	<bean id="LIMIT_MAP_PLAYER_COUNTS" class="java.lang.String">
+		<constructor-arg value="101_1_11" />
+	</bean>
+	<bean id="MAX_BRANCHING" class="java.lang.Integer">
+		<constructor-arg value="1" />
+	</bean>
+	<bean id="MAX_BRANCHING_MEMBERS" class="java.lang.Integer">
+		<constructor-arg value="3000" />
+	</bean>
+	<bean id="REFRESH_RANK" class="java.lang.String">
+		<constructor-arg value="0 0 0 * * *" />
+	</bean>
+	<bean id="CAMPBATTLE_START_TIME" class="java.lang.String">
+		<constructor-arg value="0 30 20 * * 2,4,6" />
+	</bean>
+	<bean id="CAMPBATTLE_APPLY_START_TIME" class="java.lang.String">
+		<constructor-arg value="0 0 0 * * 2,4,6" />
+	</bean>
+	<bean id="CAMP_BATTLE_TIMEOUT" class="java.lang.Integer">
+		<constructor-arg value="60" />
+	</bean>
+	<bean id="CAMP_BATTLE_POINT_MODEL" class="java.lang.String">
+		<constructor-arg value="0_112|1_113|2_114" />
+	</bean>
+	<bean id="CAMP_BATTLE_SCORE_THRESHOLD" class="java.lang.Integer">
+		<constructor-arg value="1000" />
+	</bean>
+	<bean id="BATTLEFIELD_MAX_CAMP_PLAYERS" class="java.lang.Integer">
+		<constructor-arg value="30" />
+	</bean>
+	<bean id="BATTLEFIELD_OPEN" class="java.lang.Boolean">
+		<constructor-arg value="false" />
+	</bean>
+	<bean id="BATTLE_FIELD_START_TIME" class="java.lang.String">
+		<constructor-arg value="0 0 13,20 * * 1,2,3,4,5,6" />
+	</bean>
+	<bean id="BATTLE_FIELD_TIMEOUT" class="java.lang.Integer">
+		<constructor-arg value="30" />
+	</bean>
+	<bean id="BATTLE_FIELD_KILL_HONOR" class="java.lang.Integer">
+		<constructor-arg value="3" />
+	</bean>
+	<bean id="BATTLE_FIELD_DEATH_HONOR" class="java.lang.Integer">
+		<constructor-arg value="1" />
+	</bean>
+	<bean id="CREATE_ALLIANCE_SILVER" class="java.lang.Integer">
+		<constructor-arg value="100000" />
+	</bean>
+	<bean id="game.update.fight.mode.flag" class="java.lang.Boolean" >
+		<constructor-arg value="true"/>
+	</bean>
+	<bean id="daily.login.rewards.golden" class="java.lang.Integer" >
+		<constructor-arg value="0"/>
+	</bean>
+	<bean id="create.reward.golden" class="java.lang.Integer" >
+		<constructor-arg value="0"/>
+	</bean>
+		<bean id="task.repaire.ids" class="java.lang.String" >
+		<constructor-arg value="3036_3037"/>
+	</bean>
+</beans>

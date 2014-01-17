@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 	<bean id="server.agent" class="java.lang.String">
+		<constructor-arg value="cnyayo" />
+	</bean>
+ 	<bean id="server.server" class="java.lang.String">
+		<constructor-arg value="S1" />
+	</bean>
+ 	<bean id="server.game" class="java.lang.String">
+		<constructor-arg value="djws" />
+	</bean>
+	<bean id="GAME_SERVER_FIRST_OPEN" class="java.lang.String">
+		<constructor-arg value="2012-08-27" />
+	</bean>
+	<bean id="sequence.url" class="java.lang.String" >
+		<constructor-arg value="http://192.168.1.4:8081/gift"/>
+	</bean>
+	<bean id="sequence.param.md5" class="java.lang.String" >
+		<constructor-arg value="cNyaYo-SeQueNcE-GiFT"/>
+	</bean>
+</beans>
